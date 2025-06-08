@@ -1693,7 +1693,7 @@ There are two strategies to enable efficient communication.
 <p>paper (2022 arxiv): <a href="https://arxiv.org/abs/2205.14135">https://arxiv.org/abs/2205.14135</a></p>
 <h2 id="Background-compute-bound-and-memory-bound">Background: compute-bound and memory-bound</h2>
 <ul>
-<li>The performance on throughput of transformer layers can be either compute-bound or memory-bound. The higher the arithmetic intensity, the more likely to be memory-bound.</li>
+<li>The performance on throughput of transformer layers can be either compute-bound or memory-bound. The higher the arithmetic intensity, the more likely to be compute-bound.</li>
 <li>Compute-bound operators include matrix multiplication where the computation takes more time than communication or data movement, memory-bound operators perform in an opposite way, including element-wise operators, and reduction, e.g., sum, softmax, batch norm, etc.</li>
 </ul>
 <span id="more"></span>
